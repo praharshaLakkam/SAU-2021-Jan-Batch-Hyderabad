@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>javascript one</title>
+        <h2>Add two numbers
+        </h2>
+    </head>
+    <body>
+        Number 1<input type="text" id="num1"><br>
+        Number 2:<input type="text" id="num2"><br>
+        <button onclick="fun()">add</button><br>
+        Result:<p id="ans"></p>
+        
+    </body>
+    <script>
+        function fun()
+        {
+            var x=parseInt(document.getElementById("num1").value);
+            var y=parseInt(document.getElementById("num2").value);
+            document.getElementById("ans").innerHTML=(x+y);
+        }
+    </script>
+</html>
